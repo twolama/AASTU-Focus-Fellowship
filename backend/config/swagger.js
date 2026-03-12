@@ -307,8 +307,8 @@ const createSwaggerSpec = (routeDefinitions = []) => {
       },
       servers: [
         {
-          url: "http://localhost:5002",
-          description: "Local development server",
+          url: "/",
+          description: "Current backend origin",
         },
       ],
       components: {
